@@ -1,0 +1,116 @@
+html,body{
+    border-radius: 20%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: #ffff;
+    text-align: center;
+    width: 100%;
+}
+.logos{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+.heading{
+    font-family: 'Tangerine', cursive;
+    color: #2d3c49;
+}
+.sub-heading{
+    font-family: 'ubuntu', cursive;
+    color: #2d3c49;
+}
+.scene{
+    background-color: #c4ced6;
+}
+.scene img{
+    width: 100%;
+}
+.introduciton{
+    background-color: #c4ced6;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Damion', cursive;
+    font-size: 22px;
+    text-align: center;
+    text-justify: auto;
+}
+.introduciton p{
+    padding:10px;
+}
+.featured-works{
+    padding-top: 50px;
+    background-color: #dfdbdbf1;
+    width: 100%;
+}
+.PixelArtMaker{
+    width: 100%;
+    
+    order: 0;
+    border: 12px;
+    border-color: #2d3c49;
+    margin: auto;
+    text-align: center;
+    font-family: 'bitter', serif;
+}
+.PixelArtMaker img{
+    opacity: 1;
+   width: 70.45%;
+}
+.PixelArtMaker img:hover {
+    opacity: 0.2;
+  }
+  
+.FlappyDragon,.comingsoon{
+    width:100%;
+    order: 1;
+    border: 12px;
+    border-color: #2d3c49;
+    margin: auto;
+    text-align: center;
+    font-family: 'bitter', serif;
+}
+.FlappyDragon img,.comingsoon img{
+    height: 50%;
+    width: 70.45%;
+    opacity: 1;
+}
+.FlappyDragon img:hover,.comingsoon img:hover{
+    opacity:.2;
+}
+.Contact-info{
+    background-color: #dfdbdbf1;
+    font-size: 24px;
+    text-align: center;
+    color: #8b99a5be;
+    padding: 16px;
+}
+footer {
+    border-top: 1px solid #E0E0E0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #c4ced6;
+    
+}
+footer li{
+    font-family: 'bitter', serif;
+    font-size: 15px;
+    list-style-type: none;
+    display: inline-block;
+    padding-bottom: 12px ;
+    padding-left: 12px;
+    text-align:center;
+    color: #000000;
+}
+footer a{
+    color: #000000;
+    font-family: "bitter", serif;
+    text-decoration: none;
+}
+

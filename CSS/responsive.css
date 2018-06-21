@@ -1,0 +1,29 @@
+@media screen and (min-width:745px) {
+    
+    #head{
+        display:flex;
+        flex-wrap: nowrap;
+    }
+    .logoimg{
+        padding: 20px;
+        order: 0;
+        width: 20%;
+    }
+    .heading{
+
+        width:80%;
+        text-align: right;
+        text-justify: auto;
+        order:1;
+    }
+    .introduciton p{
+        padding:10px;
+        font-size: 30px;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+}
