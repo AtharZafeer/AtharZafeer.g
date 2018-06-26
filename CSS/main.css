@@ -31,6 +31,9 @@ header{
 .scene img{
     width: 100%;
 }
+.introduciton h1{
+    text-align: center;
+}
 .introduciton{
     background-color: #c4ced6;
     width: 100%;
@@ -48,6 +51,9 @@ header{
     padding-top: 50px;
     background-color: #dfdbdbf1;
     width: 100%;
+}
+.featured-works h1{
+    text-align: center;
 }
 .PixelArtMaker{
     width: 100%;
