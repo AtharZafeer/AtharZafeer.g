@@ -1,9 +1,10 @@
-@media screen and (min-width:745px) {
+#head{
+    display:flex;
+    flex-wrap: nowrap;
+}
+@media screen and (min-width:1051px) {
     
-    #head{
-        display:flex;
-        flex-wrap: nowrap;
-    }
+   
     .logoimg{
         padding: 20px;
         order: 0;
@@ -25,5 +26,50 @@
         display: flex;
         justify-content: center;
         flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width: 745px) and (max-width: 1050px){
+   
+    .logoimg{
+        padding: 20px;
+        order: 0;
+        width: 20%;
+        -webkit-transform: scale(1.2);
+    }
+    .heading{
+
+        width: 80%;
+        text-align: right;
+        text-justify: auto;
+        order: 1;
+    }
+    .introduciton p{
+        padding: 10px;
+        font-size: 32px;
+        justify-content: center;
+    }
+    .PixelArtMaker{
+        width: 50%;
+    }
+    .FlappyDragon{
+        width:50%;
+    }
+    .comingsoon{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width: 744px){
+    #head{
+        flex-wrap: wrap;
+    }
+    .logoimg{
+        width: 100%;
+        align-content: center;
+        -webkit-transform: scale(1.2);
+    }
+    .heading{
+        width:100%;
+        text-align: center;
     }
 }
